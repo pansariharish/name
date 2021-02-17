@@ -2,48 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background: linear-gradient(42deg, blue ,gray); */
 }
-.nav{
+.first{
+    background: linear-gradient(15deg , white, blue);
     width: 100%;
-    height: auto;
-    background: linear-gradient(42deg, rgb(106, 106, 218) ,gray);
+    height: 100vh;
+    z-index: 1000000;
 }
-nav{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    border: 15px green;
-    /* background: linear-gradient(42deg, blue ,gray); */
+.firsta{
+    color: darkblue;
+    padding-top: 30px 0px;
+    margin: 20px;
+    transition: 1s;
 }
-.nav1{
-    width: 100%;
-    height: 65px;
+.first1{
+    color: chartreuse;
 }
-.nav2{
-    width: 40%;
-    height: 65px;
-    color: rgb(189, 183, 183);
-    text-shadow: 2px 1px;
-    /* border-left-color: yellow; */
-    line-height: 65px;
-    padding-left: 40px;
-    display: flex;
-    font-size: 40px;
+nav.sticky{
+    padding: 5px 100px;
+    background: white;
 }
-/* ul{
-    color: antiquewhite;
-} */
-.nav3 {
-    width:50%;
-    height: 65px;
-
-}
-a:hover{ 
-    color: red;
-    /* background-color: yellow; */
-}
-.nav3 ul{
+.first2 ul{
     width: 100%;
     height: 65px;
     list-style: none;
@@ -51,54 +30,120 @@ a:hover{
     flex-direction: row; 
     justify-content: space-around;
     align-items: center; 
+    transition: 0.6s;
+    position: relative;
 }
-.nav3 li{
+.first2 li{
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     color: fuchsia;
+    position: relative;
 }
-.first{
+.first2 ul li a{
+    position: relative;
+}
+.first3{
     padding: 30px;
     text-align: center;
-
-
+    transition: 0.6s;
     /* background-color: burlywood; */
 }
-.first1{
-    color: greenyellow;
-    border-color: darkblue;
+.first4{
+    color: blue;
+    /* border-color: darkblue; */
     font-weight: bold;
     font-size: 1in;
+    transition: 0.6s;
     /* text-align: center; */
 }
-.first2{
+.first5{
     margin: 80px 20px;
     /* text-align: center; */
     font-size: 20px;
     color: white;
+    transition: 0.6s;
 }
-.first3{
-    color:rgb(146, 197, 70);
+.first6{
+    color: darkturquoise;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px 15px;
-    background: linear-gradient(42deg,purple,pink); 
+    background: linear-gradient(57deg , white, blue); 
+    transition: 0.2s;
     /* text-align: center; */
 }
-.first3:hover{
-    background: linear-gradient(42deg, red ,gray);
+.first6:hover{
+    background: linear-gradient(57deg , blue, white);
 }
+/* .first7{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.first7 li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(226, 17, 17, 0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+ .first7 li:nth-child(1){
+    left: 86%;
+    width:80px;
+    height:80px;
+    animation-delay: 0s;
+}
+.first7 li:nth-child(2){
+    left: 12%;
+    width:40px;
+    height:40px;
+    animation-delay: 1.5s;
+}
+.first7 li:nth-child(3){
+    left: 26%;
+    width:30px;
+    height:30px;
+    animation-delay: 2s;
+    animation-duration: 10s;
+}
+.first7 li:nth-child(4){
+    left: 62%;
+    width:60px;
+    height:60px;
+    animation-delay: 3s;
+    animation-duration: 5s;
+} 
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{ 
+        transform: translateY(-800px) rotate(0deg);
+        opacity: 0;
+    }
+} */ 
 .qa{
-    background: linear-gradient(35deg ,#ccffff , #ffcccc);
+    background: linear-gradient(72deg, green , white);
+    height: 100vh;
+    width: 100%;
 }
 .second1{
     padding: 95px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1in;
+    font-size: 40px;
     font-weight: bold;
+    transition: 0.6s;
+    position: relative;
 }
 .second2{
     font-size: 25px;
@@ -134,6 +179,8 @@ a:hover{
     width: 350px;
     height: auto;
     padding: 20px 200px 50px 200px;
+    transition: 2s;
+    position: relative;
     /* margin: 60px; */
   }
 .four{
@@ -215,6 +262,8 @@ a:hover{
 
 .six{
     background: linear-gradient(57deg,white,gray);
+    /* height: 100vh;
+    width: 100%; */
     /* margin-bottom: 20px; */
 }
 .six1{
